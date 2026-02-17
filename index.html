@@ -6,40 +6,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
     <style>
-        header{
-            background-image: url(hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+        .bg-image{
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             height: 280px;
+        }
+        header{
+            background-image: url(images/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+
         }
         section#ipad{
-            background-image: url(hero_ipad_air_avail__c34ycq52exg2_large.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 280px;
+            background-image: url( images/hero_ipad_air_avail__c34ycq52exg2_large.jpg);
+            
         }
         section#watch{
-            background-image: url(hero_apple_watch_series_11__bdz1mml4dx6q_large.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 280px;
+            background-image: url(images/hero_apple_watch_series_11__bdz1mml4dx6q_large.jpg);
+           
         }
-         section#macbook{
-            background-image: url(promo_macbook_pro_m5__gnwzdhijhm6a_large.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 280px;
+        section#macbook{
+            background-image: url(images/promo_macbook_pro_m5__gnwzdhijhm6a_large.jpg);
+           
         }
-         section#macbook{
-            background-image: url(promo_ipad_pro__c529dk533k4m_large.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 280px;
+        section#macbook{
+            background-image: url(images/promo_ipad_pro__c529dk533k4m_large.jpg);
+           
         }
     </style>
 </head>
@@ -70,28 +61,28 @@
     </div>
   </div>
 </nav>
-<header>
+<header class="bg-image">
     <h1>iPhon</h1>
 </header>
-<section id="ipad">
+<section class="bg-image" id="ipad">
     <h2>iPad</h2>
 </section>
-<section id="watch">
+<section class="bg-image" id="watch">
     <h2>Watch</h2>
 </section>
 
 <main class="container-fluid">
     <section class="row">
-        <div class="col-md" id="macbook">MacBook</div>
-        <div class="col-md" id="ipadpro">iPadPro</div>
+        <div class="col-md bg-image" id="macbook">MacBook</div>
+        <div class="col-md bg-image" id="ipadpro">iPadPro</div>
     </section>
     <section class="row">
-        <div class="col-md">watch</div>
-        <div class="col-md">Airpod</div>
+        <div class="col-md bg-image" id="watch">watch</div>
+        <div class="col-md bg-image" id="airpod">Airpod</div>
     </section>
     <section class="row">
-        <div class="col-md">Trade</div>
-        <div class="col-md">Card</div>
+        <div class="col-md bg-image" id="trade">Trade</div>
+        <div class="col-md bg-image" id="card">Card</div>
     </section>
 </main>
 <section>
